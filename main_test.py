@@ -9,5 +9,5 @@ class MainTest(unittest.TestCase):
         self.assertEqual(ret, "Hello World! Test!")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     unittest.main()
